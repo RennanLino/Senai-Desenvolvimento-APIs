@@ -17,7 +17,7 @@ namespace Exo.WebApi.Contexts
         {
             if(!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("User ID=sa;Password=no;" 
+                optionsBuilder.UseSqlServer("User ID=sa;Password=88784134;" 
                  + "Server=localhost\\SQLEXPRESS;Database=ExoApi;Trusted_Connection=False;");
             }
         }
